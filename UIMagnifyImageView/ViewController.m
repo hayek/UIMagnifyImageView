@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "UIMagnifyImageView.h"
 
 @interface ViewController ()
+
 
 @end
 
@@ -18,6 +20,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    for (UIView* view in self.view.subviews) {
+        if ([view isKindOfClass:[UIMagnifyImageView class]]) {
+            UIMagnifyImageView* magnifyImageView = (UIMagnifyImageView*)view;
+            magnifyImageView.imageUrl = [NSURL URLWithString:[NSString stringWithFormat:@"https://robohash.org/%d",arc4random() % 100]];
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,10 @@
+PODS:
+  - AsyncImageView (1.5.1)
+
+DEPENDENCIES:
+  - AsyncImageView (~> 1.5)
+
+SPEC CHECKSUMS:
+  AsyncImageView: 388442ae8314a5c99de0d98040c2926826d31da7
+
+COCOAPODS: 0.33.1

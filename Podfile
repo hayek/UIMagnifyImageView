@@ -1,0 +1,1 @@
+pod 'AsyncImageView', '~> 1.5'
