@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75E9458B196151E00022A1AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E9458A196151E00022A1AB /* Foundation.framework */; };
+		75E9458D196151E00022A1AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E9458C196151E00022A1AB /* CoreGraphics.framework */; };
+		75E9458F196151E00022A1AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E9458E196151E00022A1AB /* UIKit.framework */; };
+		75E94595196151E00022A1AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75E94593196151E00022A1AB /* InfoPlist.strings */; };
+		75E94597196151E00022A1AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E94596196151E00022A1AB /* main.m */; };
+		75E9459B196151E00022A1AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E9459A196151E00022A1AB /* AppDelegate.m */; };
+		75E9459E196151E00022A1AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E9459C196151E00022A1AB /* Main.storyboard */; };
+		75E945A1196151E00022A1AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E945A0196151E00022A1AB /* ViewController.m */; };
+		75E945A3196151E00022A1AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E945A2196151E00022A1AB /* Images.xcassets */; };
+		75E945AA196151E00022A1AB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E945A9196151E00022A1AB /* XCTest.framework */; };
+		75E945AB196151E00022A1AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E9458A196151E00022A1AB /* Foundation.framework */; };
+		75E945AC196151E00022A1AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E9458E196151E00022A1AB /* UIKit.framework */; };
+		75E945B4196151E00022A1AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75E945B2196151E00022A1AB /* InfoPlist.strings */; };
+		75E945B6196151E00022A1AB /* UIMagnifyImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E945B5196151E00022A1AB /* UIMagnifyImageViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75E945AD196151E00022A1AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75E9457F196151E00022A1AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75E94586196151E00022A1AB;
+			remoteInfo = UIMagnifyImageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75E94587196151E00022A1AB /* UIMagnifyImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIMagnifyImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E9458A196151E00022A1AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75E9458C196151E00022A1AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		75E9458E196151E00022A1AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		75E94592196151E00022A1AB /* UIMagnifyImageView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIMagnifyImageView-Info.plist"; sourceTree = "<group>"; };
+		75E94594196151E00022A1AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75E94596196151E00022A1AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75E94598196151E00022A1AB /* UIMagnifyImageView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIMagnifyImageView-Prefix.pch"; sourceTree = "<group>"; };
+		75E94599196151E00022A1AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75E9459A196151E00022A1AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75E9459D196151E00022A1AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75E9459F196151E00022A1AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		75E945A0196151E00022A1AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75E945A2196151E00022A1AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75E945A8196151E00022A1AB /* UIMagnifyImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIMagnifyImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E945A9196151E00022A1AB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		75E945B1196151E00022A1AB /* UIMagnifyImageViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIMagnifyImageViewTests-Info.plist"; sourceTree = "<group>"; };
+		75E945B3196151E00022A1AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75E945B5196151E00022A1AB /* UIMagnifyImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIMagnifyImageViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75E94584196151E00022A1AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E9458D196151E00022A1AB /* CoreGraphics.framework in Frameworks */,
+				75E9458F196151E00022A1AB /* UIKit.framework in Frameworks */,
+				75E9458B196151E00022A1AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E945A5196151E00022A1AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E945AA196151E00022A1AB /* XCTest.framework in Frameworks */,
+				75E945AC196151E00022A1AB /* UIKit.framework in Frameworks */,
+				75E945AB196151E00022A1AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75E9457E196151E00022A1AB = {
+			isa = PBXGroup;
+			children = (
+				75E94590196151E00022A1AB /* UIMagnifyImageView */,
+				75E945AF196151E00022A1AB /* UIMagnifyImageViewTests */,
+				75E94589196151E00022A1AB /* Frameworks */,
+				75E94588196151E00022A1AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75E94588196151E00022A1AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75E94587196151E00022A1AB /* UIMagnifyImageView.app */,
+				75E945A8196151E00022A1AB /* UIMagnifyImageViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75E94589196151E00022A1AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75E9458A196151E00022A1AB /* Foundation.framework */,
+				75E9458C196151E00022A1AB /* CoreGraphics.framework */,
+				75E9458E196151E00022A1AB /* UIKit.framework */,
+				75E945A9196151E00022A1AB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75E94590196151E00022A1AB /* UIMagnifyImageView */ = {
+			isa = PBXGroup;
+			children = (
+				75E94599196151E00022A1AB /* AppDelegate.h */,
+				75E9459A196151E00022A1AB /* AppDelegate.m */,
+				75E9459C196151E00022A1AB /* Main.storyboard */,
+				75E9459F196151E00022A1AB /* ViewController.h */,
+				75E945A0196151E00022A1AB /* ViewController.m */,
+				75E945A2196151E00022A1AB /* Images.xcassets */,
+				75E94591196151E00022A1AB /* Supporting Files */,
+			);
+			path = UIMagnifyImageView;
+			sourceTree = "<group>";
+		};
+		75E94591196151E00022A1AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75E94592196151E00022A1AB /* UIMagnifyImageView-Info.plist */,
+				75E94593196151E00022A1AB /* InfoPlist.strings */,
+				75E94596196151E00022A1AB /* main.m */,
+				75E94598196151E00022A1AB /* UIMagnifyImageView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75E945AF196151E00022A1AB /* UIMagnifyImageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				75E945B5196151E00022A1AB /* UIMagnifyImageViewTests.m */,
+				75E945B0196151E00022A1AB /* Supporting Files */,
+			);
+			path = UIMagnifyImageViewTests;
+			sourceTree = "<group>";
+		};
+		75E945B0196151E00022A1AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75E945B1196151E00022A1AB /* UIMagnifyImageViewTests-Info.plist */,
+				75E945B2196151E00022A1AB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75E94586196151E00022A1AB /* UIMagnifyImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E945B9196151E00022A1AB /* Build configuration list for PBXNativeTarget "UIMagnifyImageView" */;
+			buildPhases = (
+				75E94583196151E00022A1AB /* Sources */,
+				75E94584196151E00022A1AB /* Frameworks */,
+				75E94585196151E00022A1AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIMagnifyImageView;
+			productName = UIMagnifyImageView;
+			productReference = 75E94587196151E00022A1AB /* UIMagnifyImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75E945A7196151E00022A1AB /* UIMagnifyImageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E945BC196151E00022A1AB /* Build configuration list for PBXNativeTarget "UIMagnifyImageViewTests" */;
+			buildPhases = (
+				75E945A4196151E00022A1AB /* Sources */,
+				75E945A5196151E00022A1AB /* Frameworks */,
+				75E945A6196151E00022A1AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75E945AE196151E00022A1AB /* PBXTargetDependency */,
+			);
+			name = UIMagnifyImageViewTests;
+			productName = UIMagnifyImageViewTests;
+			productReference = 75E945A8196151E00022A1AB /* UIMagnifyImageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75E9457F196151E00022A1AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "amir hayek";
+				TargetAttributes = {
+					75E945A7196151E00022A1AB = {
+						TestTargetID = 75E94586196151E00022A1AB;
+					};
+				};
+			};
+			buildConfigurationList = 75E94582196151E00022A1AB /* Build configuration list for PBXProject "UIMagnifyImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75E9457E196151E00022A1AB;
+			productRefGroup = 75E94588196151E00022A1AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75E94586196151E00022A1AB /* UIMagnifyImageView */,
+				75E945A7196151E00022A1AB /* UIMagnifyImageViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75E94585196151E00022A1AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E945A3196151E00022A1AB /* Images.xcassets in Resources */,
+				75E94595196151E00022A1AB /* InfoPlist.strings in Resources */,
+				75E9459E196151E00022A1AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E945A6196151E00022A1AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E945B4196151E00022A1AB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75E94583196151E00022A1AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E945A1196151E00022A1AB /* ViewController.m in Sources */,
+				75E9459B196151E00022A1AB /* AppDelegate.m in Sources */,
+				75E94597196151E00022A1AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E945A4196151E00022A1AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E945B6196151E00022A1AB /* UIMagnifyImageViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75E945AE196151E00022A1AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75E94586196151E00022A1AB /* UIMagnifyImageView */;
+			targetProxy = 75E945AD196151E00022A1AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75E94593196151E00022A1AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75E94594196151E00022A1AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		75E9459C196151E00022A1AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75E9459D196151E00022A1AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75E945B2196151E00022A1AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75E945B3196151E00022A1AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75E945B7196151E00022A1AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75E945B8196151E00022A1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75E945BA196151E00022A1AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIMagnifyImageView/UIMagnifyImageView-Prefix.pch";
+				INFOPLIST_FILE = "UIMagnifyImageView/UIMagnifyImageView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		75E945BB196151E00022A1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIMagnifyImageView/UIMagnifyImageView-Prefix.pch";
+				INFOPLIST_FILE = "UIMagnifyImageView/UIMagnifyImageView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		75E945BD196151E00022A1AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIMagnifyImageView.app/UIMagnifyImageView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIMagnifyImageView/UIMagnifyImageView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UIMagnifyImageViewTests/UIMagnifyImageViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		75E945BE196151E00022A1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIMagnifyImageView.app/UIMagnifyImageView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIMagnifyImageView/UIMagnifyImageView-Prefix.pch";
+				INFOPLIST_FILE = "UIMagnifyImageViewTests/UIMagnifyImageViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75E94582196151E00022A1AB /* Build configuration list for PBXProject "UIMagnifyImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E945B7196151E00022A1AB /* Debug */,
+				75E945B8196151E00022A1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E945B9196151E00022A1AB /* Build configuration list for PBXNativeTarget "UIMagnifyImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E945BA196151E00022A1AB /* Debug */,
+				75E945BB196151E00022A1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75E945BC196151E00022A1AB /* Build configuration list for PBXNativeTarget "UIMagnifyImageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E945BD196151E00022A1AB /* Debug */,
+				75E945BE196151E00022A1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75E9457F196151E00022A1AB /* Project object */;
+}
