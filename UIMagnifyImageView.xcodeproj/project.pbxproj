@@ -98,6 +98,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7507EF781962EF85009CE9E1 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				753C778B1961A67E00D284BF /* TableViewCell.h */,
+				753C778C1961A67E00D284BF /* TableViewCell.m */,
+				753C77881961A55E00D284BF /* TableViewController.h */,
+				753C77891961A55E00D284BF /* TableViewController.m */,
+				75E9459F196151E00022A1AB /* ViewController.h */,
+				75E945A0196151E00022A1AB /* ViewController.m */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		7507EF791962EF8D009CE9E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				75E945C21961528F0022A1AB /* StyleKitName.h */,
+				75E945C31961528F0022A1AB /* StyleKitName.m */,
+				75E945BF196151FC0022A1AB /* UIMagnifyImageView.h */,
+				75E945C0196151FC0022A1AB /* UIMagnifyImageView.m */,
+				753C778519617DDE00D284BF /* UIRoundRectViewWithShadow.h */,
+				753C778619617DDE00D284BF /* UIRoundRectViewWithShadow.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
 		75E9457E196151E00022A1AB = {
 			isa = PBXGroup;
 			children = (
@@ -136,18 +162,8 @@
 				75E94599196151E00022A1AB /* AppDelegate.h */,
 				75E9459A196151E00022A1AB /* AppDelegate.m */,
 				75E9459C196151E00022A1AB /* Main.storyboard */,
-				753C778B1961A67E00D284BF /* TableViewCell.h */,
-				753C778C1961A67E00D284BF /* TableViewCell.m */,
-				753C77881961A55E00D284BF /* TableViewController.h */,
-				753C77891961A55E00D284BF /* TableViewController.m */,
-				75E9459F196151E00022A1AB /* ViewController.h */,
-				75E945A0196151E00022A1AB /* ViewController.m */,
-				75E945C21961528F0022A1AB /* StyleKitName.h */,
-				75E945C31961528F0022A1AB /* StyleKitName.m */,
-				75E945BF196151FC0022A1AB /* UIMagnifyImageView.h */,
-				75E945C0196151FC0022A1AB /* UIMagnifyImageView.m */,
-				753C778519617DDE00D284BF /* UIRoundRectViewWithShadow.h */,
-				753C778619617DDE00D284BF /* UIRoundRectViewWithShadow.m */,
+				7507EF781962EF85009CE9E1 /* Demo */,
+				7507EF791962EF8D009CE9E1 /* Source */,
 				75E945A2196151E00022A1AB /* Images.xcassets */,
 				75E94591196151E00022A1AB /* Supporting Files */,
 			);

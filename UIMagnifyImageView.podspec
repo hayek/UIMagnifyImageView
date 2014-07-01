@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.license      =  { :type => 'MIT', :file => 'LICENSE' }
   s.homepage     = 'https://github.com/hayek/UIMagnifyImageView'
   s.authors      =  {'Amir Hayek' => 'free4sale@gmail.com'}
-  s.summary      = '<#Summary (Up to 140 characters#>'
+  s.summary      = 'Peekable image view'
   s.description      = <<-DESC
                        UIReadMoreLabel is an UILabel extention that supports truncation string for "read more" cases when the text is too large to fit the UILabel frame. UIReadMoreLabel supports dynamic font size and attributed string values.
                        DESC

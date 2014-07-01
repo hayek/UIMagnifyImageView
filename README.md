@@ -1,7 +1,7 @@
 # UIMagnifyImageView
-UIMagnifyImageView is an UILabel extention that supports truncation string for "read more" cases when the text is too large to fit the UILabel frame.
+UIMagnifyImageView is a UIView extention that shows an image inside loupe that when touched pops the image. It's useful in cases where you want to let the user view an image quickly without moving to other screen.
 
-UIMagnifyImageView supports dynamic font size and attributed string values.
+UIMagnifyImageView is optemised to work inside UITableView.
 
 [![License](http://img.shields.io/packagist/l/doctrine/orm.svg)](http://cocoadocs.org/docsets/UIMagnifyImageView)
 [![cocoapods](http://img.shields.io/cocoapods/v/UIMagnifyImageView.svg)](http://cocoadocs.org/docsets/UIMagnifyImageView)
@@ -9,19 +9,28 @@ UIMagnifyImageView supports dynamic font size and attributed string values.
 ![UIMagnifyImageView](https://github.com/hayek/UIMagnifyImageView/blob/master/UIMagnifyImageView/Screen%20Shot.png?raw=true)
 
 ## Usage
-To use UIMagnifyImageView, create a UIMagnifyImageView programaticly or set a UILabel's class to UIMagnifyImageView in storyboard.
+To use UIMagnifyImageView, create a UIMagnifyImageView programaticly or set a UIView's class to UIMagnifyImageView in storyboard.
 
 
 An example of making a UIMagnifyImageView:
 
 ```objective-c
-UIMagnifyImageView *readMoreLabel = [[UIMagnifyImageView alloc] initWithFrame:self.view.bounds];
-[readMoreLabel setTruncationString:@"... Continue Reading"];
+UIMagnifyImageView *magnifyView = [[UIMagnifyImageView alloc] initWithFrame:self.view.bounds];
+[magnifyView setImage:@"image.png"];
 
-[self.view addSubView:readMoreLabel];
+[self.view magnifyView];
+```
+####Setting the image
+UIMagnifyImageView uses [AsyncImageView] (https://github.com/nicklockwood/AsyncImageView) for the images.
+
+```objective-c
+@property (retain, nonatomic) NSURL* imageUrl;
+@property (retain, nonatomic) UIImage* image;
 ```
 
-There's also isTruncated property that will be set to YES in case the text was truncated.
+####wrapperView property
+When set, UIMagnifyImageView presents the image on it upon touch.
+To use UIMagnifyImageView inside UITableViewCell set the wrapperView property to the table's view. 
 
 ## Installation
 UIMagnifyImageView is available through [CocoaPods](http://cocoapods.org). To install
