@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5E1EA91682904FE3B84EF9E4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD660EB5FBC4307A394D588 /* libPods.a */; };
-		753C778719617DDE00D284BF /* UIRoundRectViewWithShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 753C778619617DDE00D284BF /* UIRoundRectViewWithShadow.m */; };
+		7507EF8119645187009CE9E1 /* StyleKitName.m in Sources */ = {isa = PBXBuildFile; fileRef = 7507EF7C19645187009CE9E1 /* StyleKitName.m */; };
+		7507EF8219645187009CE9E1 /* UIMagnifyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7507EF7E19645187009CE9E1 /* UIMagnifyImageView.m */; };
+		7507EF8319645187009CE9E1 /* UIRoundRectViewWithShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7507EF8019645187009CE9E1 /* UIRoundRectViewWithShadow.m */; };
 		753C778A1961A55E00D284BF /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 753C77891961A55E00D284BF /* TableViewController.m */; };
 		753C778D1961A67E00D284BF /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 753C778C1961A67E00D284BF /* TableViewCell.m */; };
 		75E9458B196151E00022A1AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E9458A196151E00022A1AB /* Foundation.framework */; };
@@ -25,8 +27,6 @@
 		75E945AC196151E00022A1AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E9458E196151E00022A1AB /* UIKit.framework */; };
 		75E945B4196151E00022A1AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75E945B2196151E00022A1AB /* InfoPlist.strings */; };
 		75E945B6196151E00022A1AB /* UIMagnifyImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E945B5196151E00022A1AB /* UIMagnifyImageViewTests.m */; };
-		75E945C1196151FC0022A1AB /* UIMagnifyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E945C0196151FC0022A1AB /* UIMagnifyImageView.m */; };
-		75E945C41961528F0022A1AB /* StyleKitName.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E945C31961528F0022A1AB /* StyleKitName.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		753C778519617DDE00D284BF /* UIRoundRectViewWithShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIRoundRectViewWithShadow.h; sourceTree = "<group>"; };
-		753C778619617DDE00D284BF /* UIRoundRectViewWithShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIRoundRectViewWithShadow.m; sourceTree = "<group>"; };
+		7507EF7B19645187009CE9E1 /* StyleKitName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleKitName.h; sourceTree = "<group>"; };
+		7507EF7C19645187009CE9E1 /* StyleKitName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleKitName.m; sourceTree = "<group>"; };
+		7507EF7D19645187009CE9E1 /* UIMagnifyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMagnifyImageView.h; sourceTree = "<group>"; };
+		7507EF7E19645187009CE9E1 /* UIMagnifyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMagnifyImageView.m; sourceTree = "<group>"; };
+		7507EF7F19645187009CE9E1 /* UIRoundRectViewWithShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIRoundRectViewWithShadow.h; sourceTree = "<group>"; };
+		7507EF8019645187009CE9E1 /* UIRoundRectViewWithShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIRoundRectViewWithShadow.m; sourceTree = "<group>"; };
 		753C77881961A55E00D284BF /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		753C77891961A55E00D284BF /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		753C778B1961A67E00D284BF /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
@@ -65,10 +69,6 @@
 		75E945B1196151E00022A1AB /* UIMagnifyImageViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIMagnifyImageViewTests-Info.plist"; sourceTree = "<group>"; };
 		75E945B3196151E00022A1AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		75E945B5196151E00022A1AB /* UIMagnifyImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIMagnifyImageViewTests.m; sourceTree = "<group>"; };
-		75E945BF196151FC0022A1AB /* UIMagnifyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMagnifyImageView.h; sourceTree = "<group>"; };
-		75E945C0196151FC0022A1AB /* UIMagnifyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMagnifyImageView.m; sourceTree = "<group>"; };
-		75E945C21961528F0022A1AB /* StyleKitName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleKitName.h; sourceTree = "<group>"; };
-		75E945C31961528F0022A1AB /* StyleKitName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleKitName.m; sourceTree = "<group>"; };
 		7FD660EB5FBC4307A394D588 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA10B1DE8F704C229610427D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,17 +111,17 @@
 			name = Demo;
 			sourceTree = "<group>";
 		};
-		7507EF791962EF8D009CE9E1 /* Source */ = {
+		7507EF7A19645187009CE9E1 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				75E945C21961528F0022A1AB /* StyleKitName.h */,
-				75E945C31961528F0022A1AB /* StyleKitName.m */,
-				75E945BF196151FC0022A1AB /* UIMagnifyImageView.h */,
-				75E945C0196151FC0022A1AB /* UIMagnifyImageView.m */,
-				753C778519617DDE00D284BF /* UIRoundRectViewWithShadow.h */,
-				753C778619617DDE00D284BF /* UIRoundRectViewWithShadow.m */,
+				7507EF7B19645187009CE9E1 /* StyleKitName.h */,
+				7507EF7C19645187009CE9E1 /* StyleKitName.m */,
+				7507EF7D19645187009CE9E1 /* UIMagnifyImageView.h */,
+				7507EF7E19645187009CE9E1 /* UIMagnifyImageView.m */,
+				7507EF7F19645187009CE9E1 /* UIRoundRectViewWithShadow.h */,
+				7507EF8019645187009CE9E1 /* UIRoundRectViewWithShadow.m */,
 			);
-			name = Source;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		75E9457E196151E00022A1AB = {
@@ -162,8 +162,8 @@
 				75E94599196151E00022A1AB /* AppDelegate.h */,
 				75E9459A196151E00022A1AB /* AppDelegate.m */,
 				75E9459C196151E00022A1AB /* Main.storyboard */,
+				7507EF7A19645187009CE9E1 /* Source */,
 				7507EF781962EF85009CE9E1 /* Demo */,
-				7507EF791962EF8D009CE9E1 /* Source */,
 				75E945A2196151E00022A1AB /* Images.xcassets */,
 				75E94591196151E00022A1AB /* Supporting Files */,
 			);
@@ -332,13 +332,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				75E945A1196151E00022A1AB /* ViewController.m in Sources */,
-				753C778719617DDE00D284BF /* UIRoundRectViewWithShadow.m in Sources */,
+				7507EF8119645187009CE9E1 /* StyleKitName.m in Sources */,
 				75E9459B196151E00022A1AB /* AppDelegate.m in Sources */,
 				753C778D1961A67E00D284BF /* TableViewCell.m in Sources */,
-				75E945C1196151FC0022A1AB /* UIMagnifyImageView.m in Sources */,
-				75E945C41961528F0022A1AB /* StyleKitName.m in Sources */,
 				75E94597196151E00022A1AB /* main.m in Sources */,
 				753C778A1961A55E00D284BF /* TableViewController.m in Sources */,
+				7507EF8219645187009CE9E1 /* UIMagnifyImageView.m in Sources */,
+				7507EF8319645187009CE9E1 /* UIRoundRectViewWithShadow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,14 +6,14 @@ Pod::Spec.new do |s|
   s.authors      =  {'Amir Hayek' => 'free4sale@gmail.com'}
   s.summary      = 'Peekable image view'
   s.description      = <<-DESC
-                       UIReadMoreLabel is an UILabel extention that supports truncation string for "read more" cases when the text is too large to fit the UILabel frame. UIReadMoreLabel supports dynamic font size and attributed string values.
+                       UIMagnifyImageView is a UIView extention that shows an image inside loupe that when touched pops the image. It's useful in cases where you want to let the user view an image quickly without moving to other screen.
                        DESC
 
 # Source Info
   s.platform     =  :ios, '7.0'
   s.source       =  :git => 'https://github.com/hayek/UIMagnifyImageView.git', :tag => '<#Tag name#>'
-  s.source_files = '<#Resources#>'
-  s.framework    =  '<#Required Frameworks#>'
+  s.source_files = 'UIMagnifyImageView/Source/*'
+  s.framework    =  'Foundation', 'CoreGraphics', 'UIKit'
 
   s.requires_arc = true
   
