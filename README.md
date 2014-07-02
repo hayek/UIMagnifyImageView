@@ -38,7 +38,7 @@ it, simply add the following line to your Podfile:
 
     pod 'UIMagnifyImageView', '~> 1'
     
-Or Manually add the two source files into your Xcode project.
+Or Manually add the source files into your Xcode project.
 
 
 ## License
