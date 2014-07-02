@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
 # Source Info
   s.platform     =  :ios, '7.0'
-  s.source       =  :git => 'https://github.com/hayek/UIMagnifyImageView.git', :tag => '<#Tag name#>'
+  s.source       =  :git => 'https://github.com/hayek/UIMagnifyImageView.git', :tag => ':tag => s.version.to_s'
   s.source_files = 'UIMagnifyImageView/Source/*'
   s.framework    =  'Foundation', 'CoreGraphics', 'UIKit'
 
