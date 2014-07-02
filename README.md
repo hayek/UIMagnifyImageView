@@ -6,7 +6,7 @@ UIMagnifyImageView is optemised to work inside UITableView.
 [![License](http://img.shields.io/packagist/l/doctrine/orm.svg)](http://cocoadocs.org/docsets/UIMagnifyImageView)
 [![cocoapods](http://img.shields.io/cocoapods/v/UIMagnifyImageView.svg)](http://cocoadocs.org/docsets/UIMagnifyImageView)
 
-![UIMagnifyImageView](https://github.com/hayek/UIMagnifyImageView/blob/master/UIMagnifyImageView/Screen%20Shot.png?raw=true)
+![UIMagnifyImageView](https://github.com/hayek/UIMagnifyImageView/blob/master/UIMagnifyImageView/Screen%20Shot.gif?raw=true)
 
 ## Usage
 To use UIMagnifyImageView, create a UIMagnifyImageView programaticly or set a UIView's class to UIMagnifyImageView in storyboard.
