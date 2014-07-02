@@ -11,13 +11,13 @@ Pod::Spec.new do |s|
 
 # Source Info
   s.platform     =  :ios, '7.0'
-  s.source       =  :git => 'https://github.com/hayek/UIMagnifyImageView.git', :tag => ':tag => s.version.to_s'
+  s.source       =  {:git => 'https://github.com/hayek/UIMagnifyImageView.git', :tag => s.version.to_s}
   s.source_files = 'UIMagnifyImageView/Source/*'
   s.framework    =  'Foundation', 'CoreGraphics', 'UIKit'
 
   s.requires_arc = true
   
 # Pod Dependencies
-  s.dependencies =	pod 'AsyncImageView', '~> 1.5'
+  s.dependency 'AsyncImageView', '~> 1.5'
 
 end
