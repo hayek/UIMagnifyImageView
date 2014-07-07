@@ -57,7 +57,7 @@
     [self addSubview:_imageView];
     
     _wrapperView = self.superview;
-
+    
     _roundRectView = [[UIRoundRectViewWithShadow alloc] init];
     
     [[NSNotificationCenter defaultCenter]
@@ -102,13 +102,13 @@
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     UITouch *touch = [touches anyObject];
-
+    
     
     [self showBigImage];
     [self setRoundRectCenterFromTouch:touch];
     
     [self animateInFromPoint:[touch locationInView:_wrapperView]];
-
+    
     if (_parentTableView == nil) {
         _parentTableView = (UITableView*)self.superview;
         while (_parentTableView != nil && [_parentTableView isKindOfClass:[UITableView class]] == NO ) {
@@ -130,17 +130,17 @@
 -(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
     UITouch *touch = [touches anyObject];
-
+    
     [self sendTouchNotification:touch ended:NO animated:NO];
     
     [self setRoundRectCenterFromTouch:touch];
-
+    
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
     UITouch *touch = [touches anyObject];
-
+    
     if([self pointInside:[touch locationInView:self] withEvent:event] == NO){
         [self sendTouchNotification:touch ended:YES animated:YES];
     }else{
@@ -173,16 +173,14 @@
 
 -(void)showBigImage
 {
-    if (_roundRectView.superview == nil && self.hidden == NO) {
+    if (_roundRectView.superview == nil) {
         [_wrapperView addSubview:_roundRectView];
     }
 }
 
 -(void)hideBigImage
 {
-    if (self.hidden == NO) {
-        [_roundRectView removeFromSuperview];
-    }
+    [_roundRectView removeFromSuperview];
 }
 
 - (void)setRoundRectCenterFromTouch:(UITouch *)touch
