@@ -177,14 +177,16 @@
 
 -(void)showBigImage
 {
-    if (_roundRectView.superview == nil) {
+    if (_roundRectView.superview == nil && self.hidden == NO) {
         [_wrapperView addSubview:_roundRectView];
     }
 }
 
 -(void)hideBigImage
 {
-    [_roundRectView removeFromSuperview];
+    if (self.hidden == NO) {
+        [_roundRectView removeFromSuperview];
+    }
 }
 
 - (void)setRoundRectCenterFromTouch:(UITouch *)touch
