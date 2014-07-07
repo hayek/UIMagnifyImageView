@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "StyleKitName.h"
 
+#define kTouchNotification @"TouchNotification"
+#define kKeyTouch       @"TouchValue"
+#define kKeyAnimated    @"AnimatedValue"
+#define kKeyEnded       @"EndedValue"
+
 @interface UIMagnifyImageView : UIView
 
 @property (retain, nonatomic) NSURL* imageUrl;

@@ -10,12 +10,8 @@
 #import "AsyncImageView.h"
 #import "UIRoundRectViewWithShadow.h"
 
-#define kTouchNotification @"TouchNotification"
 #define kAnimationSpeed     0.2
 
-#define kKeyTouch       @"TouchValue"
-#define kKeyAnimated    @"AnimatedValue"
-#define kKeyEnded       @"EndedValue"
 
 @interface UIMagnifyImageView ()
 
