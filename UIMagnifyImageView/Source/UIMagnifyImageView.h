@@ -13,6 +13,7 @@
 #define kKeyTouch       @"TouchValue"
 #define kKeyAnimated    @"AnimatedValue"
 #define kKeyEnded       @"EndedValue"
+#define kKeyTag         @"TagValue"
 
 @interface UIMagnifyImageView : UIView
 

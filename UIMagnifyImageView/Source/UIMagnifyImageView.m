@@ -121,9 +121,9 @@
     }
 }
 
-- (void)sendTouchNotification:(UITouch *)touch ended:(BOOL)ended animated:(BOOL)animated
+- (void)sendTouchNotification:(UITouch *)touch ended:(BOOL)ended withTag:(int)tag animated:(BOOL)animated
 {
-    NSDictionary *dictionary = @{kKeyTouch: touch, kKeyEnded: [NSNumber numberWithBool:ended] ,kKeyAnimated: [NSNumber numberWithBool:animated]};
+    NSDictionary *dictionary = @{kKeyTouch: touch, kKeyEnded: [NSNumber numberWithBool:ended] ,kKeyAnimated: [NSNumber numberWithBool:animated],kKeyTag: [NSNumber numberWithInt:tag] };
     [[NSNotificationCenter defaultCenter] postNotificationName:kTouchNotification object:dictionary];
 }
 
@@ -131,7 +131,7 @@
 {
     UITouch *touch = [touches anyObject];
     
-    [self sendTouchNotification:touch ended:NO animated:NO];
+    [self sendTouchNotification:touch ended:NO withTag:self.tag animated:NO];
     
     [self setRoundRectCenterFromTouch:touch];
     
@@ -142,7 +142,7 @@
     UITouch *touch = [touches anyObject];
     
     if([self pointInside:[touch locationInView:self] withEvent:event] == NO){
-        [self sendTouchNotification:touch ended:YES animated:YES];
+        [self sendTouchNotification:touch ended:YES withTag:self.tag animated:YES];
     }else{
         [self animateOutToPoint:[touch locationInView:_wrapperView]];
     }
@@ -159,7 +159,8 @@
     UITouch *touch = [dictionary valueForKey:kKeyTouch];
     BOOL animated = [[dictionary valueForKey:kKeyAnimated] boolValue];
     BOOL ended = [[dictionary valueForKey:kKeyEnded] boolValue];
-    if(ended == YES || [self pointInside:[touch locationInView:self] withEvent:nil] == NO){
+    int tag = [[dictionary valueForKeyPath:kKeyTag] intValue];
+    if(tag == self.tag && (ended == YES || [self pointInside:[touch locationInView:self] withEvent:nil] == NO)){
         if (animated) {
             [self animateOutToPoint:[touch locationInView:_wrapperView]];
         }else{
