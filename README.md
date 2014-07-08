@@ -32,11 +32,14 @@ UIMagnifyImageView uses [AsyncImageView] (https://github.com/nicklockwood/AsyncI
 When set, UIMagnifyImageView presents the image on it upon touch.
 To use UIMagnifyImageView inside UITableViewCell set the wrapperView property to the table's view. 
 
+####Multiple views
+Multiple UIMagnifyImageViews can work together out of the box. User can pan finger between views to browse the images in them without lifting the finger. Views can be seperated into groups by giving them same tag number.
+
 ## Installation
 UIMagnifyImageView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-    pod 'UIMagnifyImageView', '~> 1'
+    pod 'UIMagnifyImageView', '~> 1.1'
     
 Or Manually add the source files into your Xcode project.
 
