@@ -160,15 +160,18 @@
     BOOL animated = [[dictionary valueForKey:kKeyAnimated] boolValue];
     BOOL ended = [[dictionary valueForKey:kKeyEnded] boolValue];
     int tag = [[dictionary valueForKeyPath:kKeyTag] intValue];
-    if(tag == self.tag && (ended == YES || [self pointInside:[touch locationInView:self] withEvent:nil] == NO)){
-        if (animated) {
-            [self animateOutToPoint:[touch locationInView:_wrapperView]];
+    if(tag == self.tag)
+    {
+        if(ended == YES || [self pointInside:[touch locationInView:self] withEvent:nil] == NO){
+            if (animated) {
+                [self animateOutToPoint:[touch locationInView:_wrapperView]];
+            }else{
+                [self hideBigImage];
+            }
         }else{
-            [self hideBigImage];
+            [self showBigImage];
+            [self setRoundRectCenterFromTouch:touch];
         }
-    }else{
-        [self showBigImage];
-        [self setRoundRectCenterFromTouch:touch];
     }
 }
 
