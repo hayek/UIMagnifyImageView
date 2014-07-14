@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'UIMagnifyImageView'
-  s.version      = '1.1'
+  s.version      = '1.2'
   s.license      =  { :type => 'MIT', :file => 'LICENSE' }
   s.homepage     = 'http://hayek.github.io/UIMagnifyImageView'
   s.authors      =  {'Amir Hayek' => 'free4sale@gmail.com'}
