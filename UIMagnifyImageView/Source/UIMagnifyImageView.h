@@ -19,6 +19,7 @@
 
 @property (retain, nonatomic) NSURL* imageUrl;
 @property (retain, nonatomic) UIImage* image;
+@property (assign, nonatomic) BOOL alwaysAboveTouch;
 
 @property (weak, nonatomic) UIView* wrapperView;
 

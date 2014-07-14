@@ -190,7 +190,7 @@
 - (void)setRoundRectCenterFromTouch:(UITouch *)touch
 {
     int y = [touch locationInView:_wrapperView].y;
-    if ( y <= _roundRectView.bounds.size.height) {
+    if ( y <= _roundRectView.bounds.size.height && _alwaysAboveTouch == NO) {
         y = y + _roundRectView.bounds.size.height/2;
     }else{
         y = y - _roundRectView.bounds.size.height/2;
