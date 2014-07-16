@@ -141,11 +141,7 @@
 {
     UITouch *touch = [touches anyObject];
     
-    if([self pointInside:[touch locationInView:self] withEvent:event] == NO){
-        [self sendTouchNotification:touch ended:YES withTag:self.tag animated:YES];
-    }else{
-        [self animateOutToPoint:[touch locationInView:_wrapperView]];
-    }
+    [self sendTouchNotification:touch ended:YES withTag:self.tag animated:YES];
     
     if (_parentTableView) {
         _parentTableView.scrollEnabled = YES;
@@ -154,6 +150,10 @@
 
 - (void)touchNotification:(NSNotification *)notification
 {
+    if (self.hidden) {
+        return;
+    }
+    
     NSDictionary *dictionary = [notification object];
     
     UITouch *touch = [dictionary valueForKey:kKeyTouch];

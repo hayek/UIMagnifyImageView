@@ -39,7 +39,7 @@ Multiple UIMagnifyImageViews can work together out of the box. User can pan fing
 UIMagnifyImageView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-    pod 'UIMagnifyImageView', '~> 1.1'
+    pod 'UIMagnifyImageView', '~> 1.3'
     
 Or Manually add the source files into your Xcode project.
 
