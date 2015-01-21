@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1ua-au-bO8">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--UIMagnifyImageView-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" tag="13" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ny9-tM-V2k" customClass="UIMagnifyImageView">
+                                <rect key="frame" x="129" y="172" width="36" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="36" id="1xY-kj-fGi"/>
+                                    <constraint firstAttribute="height" constant="36" id="zjT-BL-O1t"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yfE-iY-htS" customClass="UIMagnifyImageView">
+                                <rect key="frame" x="173" y="157" width="50" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="I4a-s0-Ot4"/>
+                                    <constraint firstAttribute="height" constant="50" id="iMP-fr-COk"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zyJ-AT-1cB" customClass="UIMagnifyImageView">
+                                <rect key="frame" x="21" y="302" width="108" height="108"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="AlA-gc-YhO"/>
+                                    <constraint firstAttribute="width" constant="108" id="i2T-DB-Ocs"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fFY-X3-IPW" customClass="UIMagnifyImageView">
+                                <rect key="frame" x="251" y="74" width="20" height="20"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="PtS-vb-pFc"/>
+                                    <constraint firstAttribute="height" constant="20" id="mDG-LF-CWK"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EHy-Pk-5Rh" customClass="UIMagnifyImageView">
+                                <rect key="frame" x="231" y="137" width="70" height="70"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="5ih-i6-LvE"/>
+                                    <constraint firstAttribute="width" constant="70" id="fDA-82-TxK"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jp5-7y-YIG" customClass="UIMagnifyImageView">
+                                <rect key="frame" x="203" y="79" width="15" height="15"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="UEG-EN-P6x"/>
+                                    <constraint firstAttribute="width" constant="15" id="bIE-pj-XMP"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Utr-vh-Uuh" customClass="UIMagnifyImageView">
+                                <rect key="frame" x="60" y="181" width="27" height="27"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="Hi3-zF-paf"/>
+                                    <constraint firstAttribute="width" constant="27" id="dX3-JT-id0"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="67J-9T-9bi" customClass="UIMagnifyImageView">
+                                <rect key="frame" x="94" y="179" width="29" height="29"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="29" id="X0i-qt-cQk"/>
+                                    <constraint firstAttribute="height" constant="29" id="b2g-kc-kzb"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="po5-mC-7x4" customClass="UIMagnifyImageView">
+                                <rect key="frame" x="27" y="183" width="25" height="25"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="otv-K3-7zp"/>
+                                    <constraint firstAttribute="width" constant="25" id="qPh-LY-I2g"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WIN-sv-YgH" customClass="UIMagnifyImageView">
+                                <rect key="frame" x="279" y="72" width="22" height="22"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="nqN-pd-FU6"/>
+                                    <constraint firstAttribute="width" constant="22" id="wbw-8C-ljo"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dM4-rR-hZD" customClass="UIMagnifyImageView">
+                                <rect key="frame" x="226" y="76" width="18" height="18"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="0lr-nw-u0W"/>
+                                    <constraint firstAttribute="width" constant="18" id="Lul-P2-Ioe"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0fq-OP-mu1" customClass="UIMagnifyImageView">
+                                <rect key="frame" x="137" y="246" width="164" height="164"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="164" id="DFc-cW-omn"/>
+                                    <constraint firstAttribute="width" constant="164" id="ljc-ZB-zS5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dM4-rR-hZD" firstAttribute="bottom" secondItem="Jp5-7y-YIG" secondAttribute="bottom" id="5m5-Ns-nu1"/>
+                            <constraint firstItem="EHy-Pk-5Rh" firstAttribute="top" secondItem="dM4-rR-hZD" secondAttribute="bottom" constant="43" id="6J0-Il-obi"/>
+                            <constraint firstItem="0fq-OP-mu1" firstAttribute="trailing" secondItem="EHy-Pk-5Rh" secondAttribute="trailing" id="7MK-W9-Zc7"/>
+                            <constraint firstItem="WIN-sv-YgH" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" symbolic="YES" id="7cU-cJ-Nuf"/>
+                            <constraint firstItem="EHy-Pk-5Rh" firstAttribute="leading" secondItem="yfE-iY-htS" secondAttribute="trailing" constant="8" symbolic="YES" id="9dY-lh-maj"/>
+                            <constraint firstItem="yfE-iY-htS" firstAttribute="bottom" secondItem="EHy-Pk-5Rh" secondAttribute="bottom" id="9u4-Gk-nc5"/>
+                            <constraint firstItem="Ny9-tM-V2k" firstAttribute="bottom" secondItem="67J-9T-9bi" secondAttribute="bottom" id="Bum-G0-1NW"/>
+                            <constraint firstItem="Utr-vh-Uuh" firstAttribute="bottom" secondItem="po5-mC-7x4" secondAttribute="bottom" id="COS-9x-7EL"/>
+                            <constraint firstItem="Ny9-tM-V2k" firstAttribute="leading" secondItem="67J-9T-9bi" secondAttribute="trailing" constant="6" id="Dg4-Ql-v7a"/>
+                            <constraint firstItem="WIN-sv-YgH" firstAttribute="trailing" secondItem="EHy-Pk-5Rh" secondAttribute="trailing" id="FaL-KJ-5tG"/>
+                            <constraint firstItem="67J-9T-9bi" firstAttribute="bottom" secondItem="Utr-vh-Uuh" secondAttribute="bottom" id="Lem-Cy-w5c"/>
+                            <constraint firstItem="fFY-X3-IPW" firstAttribute="leading" secondItem="dM4-rR-hZD" secondAttribute="trailing" constant="7" id="Qto-wf-NJQ"/>
+                            <constraint firstItem="0fq-OP-mu1" firstAttribute="leading" secondItem="zyJ-AT-1cB" secondAttribute="trailing" constant="8" symbolic="YES" id="RQU-sF-K0C"/>
+                            <constraint firstItem="yfE-iY-htS" firstAttribute="leading" secondItem="Ny9-tM-V2k" secondAttribute="trailing" constant="8" symbolic="YES" id="WOz-Ui-vb7"/>
+                            <constraint firstItem="zyJ-AT-1cB" firstAttribute="bottom" secondItem="0fq-OP-mu1" secondAttribute="bottom" id="c7t-Wd-hca"/>
+                            <constraint firstItem="WIN-sv-YgH" firstAttribute="bottom" secondItem="fFY-X3-IPW" secondAttribute="bottom" id="ed1-2g-xo9"/>
+                            <constraint firstItem="dM4-rR-hZD" firstAttribute="leading" secondItem="Jp5-7y-YIG" secondAttribute="trailing" constant="8" symbolic="YES" id="fbU-oS-3xw"/>
+                            <constraint firstItem="fFY-X3-IPW" firstAttribute="bottom" secondItem="dM4-rR-hZD" secondAttribute="bottom" id="jjo-gs-sSy"/>
+                            <constraint firstItem="zyJ-AT-1cB" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="5" id="lTR-ma-c1e"/>
+                            <constraint firstItem="Utr-vh-Uuh" firstAttribute="leading" secondItem="po5-mC-7x4" secondAttribute="trailing" constant="8" symbolic="YES" id="ljG-Wd-DtZ"/>
+                            <constraint firstItem="0fq-OP-mu1" firstAttribute="top" secondItem="yfE-iY-htS" secondAttribute="bottom" constant="39" id="o8A-cR-Ngt"/>
+                            <constraint firstItem="67J-9T-9bi" firstAttribute="leading" secondItem="Utr-vh-Uuh" secondAttribute="trailing" constant="7" id="rYv-OJ-Kbb"/>
+                            <constraint firstItem="0fq-OP-mu1" firstAttribute="top" secondItem="Ny9-tM-V2k" secondAttribute="bottom" constant="38" id="uw6-Uz-IVG"/>
+                            <constraint firstItem="WIN-sv-YgH" firstAttribute="leading" secondItem="fFY-X3-IPW" secondAttribute="trailing" constant="8" symbolic="YES" id="xxB-1m-mfX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="UIMagnifyImageView" id="aWn-o6-Afi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2458.125" y="244.01408450704224"/>
+        </scene>
+        <!--UIMagnifyImageView-->
+        <scene sceneID="juP-QK-hdV">
+            <objects>
+                <tableViewController title="UIMagnifyImageView" id="ClY-Do-jGG" customClass="TableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="R1E-Uh-1b1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="KHe-RN-jGB" customClass="TableViewCell">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KHe-RN-jGB" id="eXX-xm-9Eo">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cell" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gq0-Iv-glc">
+                                            <rect key="frame" x="20" y="13" width="524" height="20"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iiR-7B-klO" customClass="UIMagnifyImageView">
+                                            <rect key="frame" x="552" y="1" width="40" height="40"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="VII-bm-Q8T"/>
+                                                <constraint firstAttribute="width" constant="40" id="dCE-dS-9jx"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="iiR-7B-klO" firstAttribute="leading" secondItem="gq0-Iv-glc" secondAttribute="trailing" constant="8" id="1Va-hO-hSJ"/>
+                                        <constraint firstItem="gq0-Iv-glc" firstAttribute="leading" secondItem="eXX-xm-9Eo" secondAttribute="leadingMargin" constant="12" id="Kcy-ps-BAM"/>
+                                        <constraint firstItem="gq0-Iv-glc" firstAttribute="top" secondItem="eXX-xm-9Eo" secondAttribute="topMargin" constant="5" id="czt-QS-jVk"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="gq0-Iv-glc" secondAttribute="bottom" constant="2" id="eC7-mp-u3c"/>
+                                        <constraint firstItem="iiR-7B-klO" firstAttribute="top" secondItem="eXX-xm-9Eo" secondAttribute="topMargin" constant="-7" id="jwF-4D-BJl"/>
+                                        <constraint firstItem="iiR-7B-klO" firstAttribute="trailing" secondItem="eXX-xm-9Eo" secondAttribute="trailingMargin" id="ngn-md-3lc"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="iiR-7B-klO" secondAttribute="bottom" constant="-6" id="rHo-Rw-KSv"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="magnifyImageView" destination="iiR-7B-klO" id="Ruq-pT-pHn"/>
+                                    <segue destination="vXZ-lx-hvc" kind="show" id="Izg-Kh-PQl"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="ClY-Do-jGG" id="dSM-ks-ZP2"/>
+                            <outlet property="delegate" destination="ClY-Do-jGG" id="Swa-hG-71h"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="UIMagnifyImageView" id="5qn-Ll-Kwd"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wim-vR-7tk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1689" y="243"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="HJa-SK-uMX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1ua-au-bO8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RPd-fO-C8L">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ClY-Do-jGG" kind="relationship" relationship="rootViewController" id="aja-JA-Bbr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Dr-UW-dlJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="703.125" y="244.01408450704224"/>
+        </scene>
+    </scenes>
+</document>

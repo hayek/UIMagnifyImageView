@@ -13,13 +13,13 @@
 		7507EF8319645187009CE9E1 /* UIRoundRectViewWithShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7507EF8019645187009CE9E1 /* UIRoundRectViewWithShadow.m */; };
 		753C778A1961A55E00D284BF /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 753C77891961A55E00D284BF /* TableViewController.m */; };
 		753C778D1961A67E00D284BF /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 753C778C1961A67E00D284BF /* TableViewCell.m */; };
+		75B09AAE1A6FE21E0007BD4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B09AAD1A6FE21E0007BD4D /* Main.storyboard */; };
 		75E9458B196151E00022A1AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E9458A196151E00022A1AB /* Foundation.framework */; };
 		75E9458D196151E00022A1AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E9458C196151E00022A1AB /* CoreGraphics.framework */; };
 		75E9458F196151E00022A1AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E9458E196151E00022A1AB /* UIKit.framework */; };
 		75E94595196151E00022A1AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75E94593196151E00022A1AB /* InfoPlist.strings */; };
 		75E94597196151E00022A1AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E94596196151E00022A1AB /* main.m */; };
 		75E9459B196151E00022A1AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E9459A196151E00022A1AB /* AppDelegate.m */; };
-		75E9459E196151E00022A1AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E9459C196151E00022A1AB /* Main.storyboard */; };
 		75E945A1196151E00022A1AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E945A0196151E00022A1AB /* ViewController.m */; };
 		75E945A3196151E00022A1AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E945A2196151E00022A1AB /* Images.xcassets */; };
 		75E945AA196151E00022A1AB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E945A9196151E00022A1AB /* XCTest.framework */; };
@@ -50,6 +50,7 @@
 		753C77891961A55E00D284BF /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		753C778B1961A67E00D284BF /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		753C778C1961A67E00D284BF /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		75B09AAD1A6FE21E0007BD4D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		75E94587196151E00022A1AB /* UIMagnifyImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIMagnifyImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E9458A196151E00022A1AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75E9458C196151E00022A1AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,7 +61,6 @@
 		75E94598196151E00022A1AB /* UIMagnifyImageView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIMagnifyImageView-Prefix.pch"; sourceTree = "<group>"; };
 		75E94599196151E00022A1AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		75E9459A196151E00022A1AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		75E9459D196151E00022A1AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75E9459F196151E00022A1AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		75E945A0196151E00022A1AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		75E945A2196151E00022A1AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -161,7 +161,7 @@
 			children = (
 				75E94599196151E00022A1AB /* AppDelegate.h */,
 				75E9459A196151E00022A1AB /* AppDelegate.m */,
-				75E9459C196151E00022A1AB /* Main.storyboard */,
+				75B09AAD1A6FE21E0007BD4D /* Main.storyboard */,
 				7507EF7A19645187009CE9E1 /* Source */,
 				7507EF781962EF85009CE9E1 /* Demo */,
 				75E945A2196151E00022A1AB /* Images.xcassets */,
@@ -277,9 +277,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B09AAE1A6FE21E0007BD4D /* Main.storyboard in Resources */,
 				75E945A3196151E00022A1AB /* Images.xcassets in Resources */,
 				75E94595196151E00022A1AB /* InfoPlist.strings in Resources */,
-				75E9459E196151E00022A1AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,14 +369,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		75E9459C196151E00022A1AB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				75E9459D196151E00022A1AB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		75E945B2196151E00022A1AB /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -463,7 +455,6 @@
 			baseConfigurationReference = AA10B1DE8F704C229610427D /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIMagnifyImageView/UIMagnifyImageView-Prefix.pch";
 				INFOPLIST_FILE = "UIMagnifyImageView/UIMagnifyImageView-Info.plist";
@@ -477,7 +468,6 @@
 			baseConfigurationReference = AA10B1DE8F704C229610427D /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIMagnifyImageView/UIMagnifyImageView-Prefix.pch";
 				INFOPLIST_FILE = "UIMagnifyImageView/UIMagnifyImageView-Info.plist";
